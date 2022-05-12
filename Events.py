@@ -33,7 +33,7 @@ class event:
 
         if length == 0:
 
-            Speak.Speak('No Events scheduled today')
+            Speak.Speak('Sir No Events scheduled today')
 
         else:
 
