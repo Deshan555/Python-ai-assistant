@@ -11,7 +11,9 @@ class event:
 
         sql_connection = mysql.connector.connect(host="localhost", user="root", password="", database="data_store")
 
-        count: int = 1
+        count: int = 0
+
+        event_list: list = []
 
         connection = sql_connection.cursor()
 
@@ -25,10 +27,26 @@ class event:
 
         result = connection.fetchall()
 
-        for x in result:
+        length = (len(result))
 
-            Speak.Speak(x)
+        count: int = 0
 
-            count = count + 1
+        if length == 0:
+
+            Speak.Speak('No Events scheduled today')
+
+        else:
+
+            for x in result:
+
+                event_number = count + 1
+
+                event_info = result[count]
+
+                Speak.Speak('Event Number ' + str(event_number))
+
+                Speak.Speak('Event Info ' + str(event_info))
+
+                count = count + 1
 
         sql_connection.close()
