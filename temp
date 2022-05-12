@@ -1,0 +1,3 @@
+        elif 'sing' in query:
+
+            music.music_picker()
