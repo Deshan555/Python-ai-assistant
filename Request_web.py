@@ -18,6 +18,6 @@ class web_requests:
 
         except:
 
-            Speak.Speak('problem with request')
+            Speak.Speak('problem with request, check sever status')
 
             pass
