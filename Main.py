@@ -1,3 +1,4 @@
+import os
 import webbrowser
 
 import pywhatkit
@@ -7,6 +8,7 @@ import wikipedia
 import Carbon_Value
 
 import Events
+import Humidity
 
 import News
 import Request_web
@@ -26,6 +28,7 @@ import speech_recognition as sr
 import Temperature
 
 import Weather
+import Wishes
 
 import music
 
@@ -56,18 +59,17 @@ def takeCommand():
         audio = r.listen(source)
 
     try:
+
         print("Recognizing...")
+
         command = r.recognize_google(audio, language='en-in')
+
         print(f"User said: {command}\n")
 
-        if 'hey friday' in command:
-            command = command.replace('hey friday', '')
-            return command
-        else:
-            pass
-
     except Exception as e:
+
         print("Say that again please...")
+
         return "None"
 
     return command
@@ -84,6 +86,14 @@ if __name__ == "__main__":
         if 'hay' in query:
 
             Speak.Speak('Hey How Are You? How Can I Help You')
+
+        elif 'hello friday' in query:
+
+            Speak.Speak('Your Friday here, So tell me what can i do for you')
+
+        elif 'good morning' in query:
+
+            Wishes.wish_toFriday()
 
         elif 'wikipedia' in query:
 
@@ -166,7 +176,7 @@ if __name__ == "__main__":
 
         elif 'humidity' in query:
 
-            Carbon_Value.event()
+            Humidity.event();
 
         elif 'turn on pump' in query:
 
@@ -192,7 +202,11 @@ if __name__ == "__main__":
 
             Request_web.web_requests('http://192.168.43.178/2/off', 'sprinkler turn off successfully')
 
+        elif 'close chrome' in query:
 
+            os.system("taskkill /im chrome.exe /f")
+
+            Speak.Speak('As Your Wish Sir, Chrome Google was close immediately')
 
 
 
