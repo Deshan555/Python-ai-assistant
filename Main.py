@@ -5,13 +5,16 @@ import pywhatkit
 import wikipedia
 
 import Carbon_Value
+
 import Events
 
 import News
+import Request_web
 
 import Screen_Shot
 
 import Send_News
+
 import Send_Weather
 
 import Speak
@@ -21,7 +24,9 @@ import datetime
 import speech_recognition as sr
 
 import Temperature
+
 import Weather
+
 import music
 
 
@@ -38,7 +43,7 @@ def wishMe():
     else:
         Speak.Speak("Good Evening!")
 
-    Speak.Speak("I am Tessa . Please tell me , how Can I help you")
+    Speak.Speak("I am  FRIDAY. . Please tell me , how Can I help you")
 
 
 def takeCommand():
@@ -54,6 +59,12 @@ def takeCommand():
         print("Recognizing...")
         command = r.recognize_google(audio, language='en-in')
         print(f"User said: {command}\n")
+
+        if 'hey friday' in command:
+            command = command.replace('hey friday', '')
+            return command
+        else:
+            pass
 
     except Exception as e:
         print("Say that again please...")
@@ -156,6 +167,30 @@ if __name__ == "__main__":
         elif 'humidity' in query:
 
             Carbon_Value.event()
+
+        elif 'turn on pump' in query:
+
+            Speak.Speak('Water Pump Will turn on')
+
+            Request_web.web_requests('http://192.168.43.178/1/on', 'Water Pump turn on successfully')
+
+        elif 'turn off pump' in query:
+
+            Speak.Speak('Water Pump Will turn off')
+
+            Request_web.web_requests('http://192.168.43.178/1/off', 'Water Pump turn off successfully')
+
+        elif 'turn on sprinkler' in query:
+
+            Speak.Speak('sprinkler Will turn on')
+
+            Request_web.web_requests('http://192.168.43.178/2/on', 'sprinkler turn on successfully')
+
+        elif 'turn off sprinkler' in query:
+
+            Speak.Speak('sprinkler Will turn off')
+
+            Request_web.web_requests('http://192.168.43.178/2/off', 'sprinkler turn off successfully')
 
 
 
