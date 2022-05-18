@@ -151,7 +151,7 @@ if __name__ == "__main__":
 
             query = query.replace('play', '')
 
-            Speak.Speak(query + 'Play soon enjoy music')
+            Speak.Speak('Please wait for play music')
 
             pywhatkit.playonyt(query)
 
