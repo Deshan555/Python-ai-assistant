@@ -1,7 +1,9 @@
 
 from pushbullet import Pushbullet
 
-API_KEY = "o.SwB5RE7PBYNdAOSSjOBE60FRalj4MECx"
+import Config
+
+API_KEY = Config.API_KEY
 
 
 class Push_bullet:

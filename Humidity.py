@@ -1,6 +1,8 @@
 
 import mysql.connector
 
+import Config
+
 import Speak
 
 
@@ -8,7 +10,7 @@ class event:
 
     def __init__(self):
 
-        sql_connection = mysql.connector.connect(host="localhost", user="root", password="", database="data_store")
+        sql_connection = mysql.connector.connect(host=Config.HOST_NAME, user=Config.USER_NAME, password=Config.PASSWORD,database=Config.DATABASE_NAME)
 
         connection = sql_connection.cursor()
 

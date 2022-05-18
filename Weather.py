@@ -1,12 +1,14 @@
 import requests
 
+import Config
+
 import Speak
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 
-CITY = "Rathnapura"
+CITY = Config.BASE_CITY
 
-API_KEY = "ab46492c5e954d033a7e4a6afe58ccde"
+API_KEY = Config.AUTH_KEY
 
 
 class get_Weather:
