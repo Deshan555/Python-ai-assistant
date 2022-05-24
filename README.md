@@ -1,6 +1,8 @@
 
 # F.R.I.D.A.Y AI
 
+![Logo](https://github.com/Deshan555/Tessa-AI/blob/master/FRIDAY.gif)
+
 ## Installation Python Modules and Dependancies
 
 ### For windows users
