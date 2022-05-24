@@ -45,6 +45,51 @@ Python library for Google news
 
 
 
+## Command List
+
+```javascript
+Play Command → Play music on the YouTube 
+
+Example: Play Shape of You
+```
+
+```javascript
+Date Command  → Current Date and Time 
+
+Example: what's Date Today / Date Please / Date
+```
+
+```javascript
+Wikipedia Command → find data from Wikipedia 
+
+Example: Wikipedia Batman / Wikipedia apple inc
+```
+
+```javascript
+Quick Shot Command → this command can take quick screen shot in 5 Sec and save 
+
+Example: Take Quick Shot
+```
+
+```javascript
+News Command → Get Current News  
+
+Example: Today News Please / Friday Today News Please
+```
+
+```javascript
+Time Command → Return time 
+
+Example: Whats the time now / Time Please
+```
+
+```javascript
+Events Command → check to do list 
+
+Example: Any Events today / Events
+```
+
+
 
 
 
