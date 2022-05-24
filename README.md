@@ -1,7 +1,7 @@
 
 # F.R.I.D.A.Y AI
 
-![Logo](https://github.com/Deshan555/Tessa-AI/blob/master/FRIDAY.gif)
+![Logo](https://github.com/Deshan555/Tessa-AI/blob/master/AI.gif)
 
 ## Installation Python Modules and Dependancies
 
