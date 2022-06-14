@@ -15,6 +15,8 @@ class get_Weather:
 
     def __init__(self):
 
+        Speak.Speak("Please wait for  get weather details")
+
         URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY
 
         response = requests.get(URL)
