@@ -1,0 +1,156 @@
+ {"intents":
+
+[
+  {"tag": "greeting",
+
+    "patterns": ["Hey", "Hello", "What's up?", "How is it going?", "Hi", "Good day"],
+
+    "responses": ["Hello Sir!", "Hello, what can I do for you?"]
+
+  },
+  {
+    "tag": "create_note",
+
+    "patterns": ["Please create a new note", "New note", "Create a note", "I want to create a note"],
+
+    "responses": [""]
+  },
+
+  {
+    "tag": "add_todo",
+
+    "patterns": ["I want to add a todo", "add a new todo", "add a todo to my list", "new item on my todo list"],
+
+    "responses": [""]
+
+  },
+
+  {"tag":"show_todos",
+
+    "patterns": ["Show my todos", "What are my todos", "What is on my todo"],
+
+    "responses": [""]
+
+  },
+
+  {"tag": "exit",
+
+    "patterns": ["Bye", "Stop", "Quit", "I want to quit", "Goodbye", "I want to exit", "I have to go"],
+
+    "responses": [""]
+  },
+
+  {"tag": "weather",
+
+    "patterns": ["tell me about weather", "weather Please", "today weather", "today looks like", "climate Please"],
+
+    "responses": [""]
+  },
+
+  {"tag": "screenshot",
+
+    "patterns": ["screenshot Please", "screen capture", "take screenshot", "quick shot"],
+
+    "responses": [""]
+  },
+
+  {"tag": "events",
+
+    "patterns": ["any events held on today?", "any appointments held on today?", "how is my day going on today?", "today calendar"],
+
+    "responses": [""]
+  },
+
+  {"tag": "google",
+
+    "patterns": ["search it", "google it", "find for me", "search for me", "find it", "i want to search", "i want to browse"],
+
+    "responses": [""]
+  },
+
+  {"tag": "music",
+
+    "patterns": ["play music for me", "play my favorite music", "sing for me", "it's a playtime","party rock and roll", "rock and roll"],
+
+    "responses": [""]
+  },
+
+  {"tag": "wikipedia",
+
+    "patterns": ["find details", "wikipedia it", "wiki it", "explain it", "tell more about it"],
+
+    "responses": [""]
+  },
+
+  {"tag": "news",
+
+    "patterns": ["tell me news today", "news Please", "news headlines Please", "headlines", "tell me about today"],
+
+    "responses": [""]
+  },
+
+  {"tag": "youtube",
+
+    "patterns": ["youtube it", "let's watch youtube", "visit youtube", "i want watch video"],
+
+    "responses": [""]
+  },
+
+  {"tag": "time",
+
+    "patterns": ["time Please", "tell me time", "time now", "whats the time now", "hey time Please"],
+
+    "responses": [""]
+  },
+
+  {"tag": "time",
+
+    "patterns": ["time Please", "tell me time", "time now", "whats the time now", "hey time Please"],
+
+    "responses": [""]
+  },
+
+  {"tag": "send_weather",
+
+    "patterns": ["send me weather report", "i want to see weather report", "weather report Please", "sync weather report", "report weather to me"],
+
+    "responses": [""]
+  },
+
+  {"tag": "send_news",
+
+    "patterns": ["sync news report", "i want to see news report", "news report Please", "send me headlines", "news update Please"],
+
+    "responses": [""]
+  },
+
+    {"tag": "on_sprinkler",
+
+    "patterns": ["please sprinkler on", "turn on sprinkler", "activate sprinkler", "power on sprinkler", "please activate sprinkler", "reactivate sprinkler"],
+
+    "responses": [""]
+  },
+
+  {"tag": "off_sprinkler",
+
+    "patterns": ["turn off sprinkler", "turn sprinkler off", "deactivate sprinkler", "power off sprinkler", "please power off sprinkler"],
+
+    "responses": [""]
+  },
+
+  {"tag": "on_pump",
+
+    "patterns": ["water pump turn on","activate water pump", "turn water pump on", "please turn on water pump", "activate water pump", "reactivate water pump", "on water pump", "water motor turn on"],
+
+    "responses": [""]
+  },
+
+  {"tag": "off_pump",
+
+    "patterns": ["turn off water pump", "off water pump", "deactivate water pump", "power off water pump", "power off water motor"],
+
+    "responses": [""]
+  }
+
+
+]}
