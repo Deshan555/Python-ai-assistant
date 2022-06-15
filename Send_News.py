@@ -4,16 +4,48 @@ import Pushbullet
 
 import Speak
 
+import os
+
 
 class send_news:
 
     def __init__(self):
-        gn = GoogleNews()
 
-        s = gn.search('Sri Lanka')
+        index: int = 1
 
-        for entry in s["entries"]:
+        news_list: list = []
 
-            Pushbullet.Push_bullet('News Requests', entry["title"])
+        google_news = GoogleNews()
 
-            Speak.Speak('News Send To Your Device')
+        get_news = google_news.search('Sri Lanka')
+
+        file = open("temp.txt", "a")
+
+        for entry in get_news["entries"]:
+
+            if index <= 50:
+                file.write(str(index) + " " + entry["title"])
+
+                file.write("\n\n")
+            else:
+                break
+
+            index = index + 1
+
+        file.close()
+
+        file = open("temp.txt", "r")
+
+        Pushbullet.Push_bullet('News Requests', file.read())
+
+        Speak.Speak('News Send To Your Device')
+
+        file.close()
+
+        os.remove("temp.txt")
+
+
+
+
+
+
