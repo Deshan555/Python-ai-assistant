@@ -91,14 +91,7 @@
 
   {"tag": "youtube",
 
-    "patterns": ["youtube it", "let's watch youtube", "visit youtube", "i want watch video"],
-
-    "responses": [""]
-  },
-
-  {"tag": "time",
-
-    "patterns": ["time Please", "tell me time", "time now", "whats the time now", "hey time Please"],
+    "patterns": ["youtube it", "let's watch youtube", "visit youtube", "i want watch video", "i want to look video", "see video"],
 
     "responses": [""]
   },
@@ -124,7 +117,7 @@
     "responses": [""]
   },
 
-    {"tag": "on_sprinkler",
+  {"tag": "on_sprinkler",
 
     "patterns": ["please sprinkler on", "turn on sprinkler", "activate sprinkler", "power on sprinkler", "please activate sprinkler", "reactivate sprinkler"],
 
@@ -147,10 +140,54 @@
 
   {"tag": "off_pump",
 
-    "patterns": ["turn off water pump", "off water pump", "deactivate water pump", "power off water pump", "power off water motor"],
+    "patterns": ["turn off water pump", "off water pump", "deactivate water pump", "power off water pump", "power off water motor", "water supplier turn off"],
+
+    "responses": [""]
+  },
+
+  {"tag": "humidity",
+
+    "patterns": ["what is humidity in green house", "what is humidity in", "humidity please", "green house humidity", "how is humidity"],
+
+    "responses": [""]
+  },
+
+  {"tag": "temperature",
+
+    "patterns": ["what is temperature in green house", "temperature looks like", "temperature please", "green house temperature", "how is temperature"],
+
+    "responses": [""]
+  },
+
+  {"tag": "carbon",
+
+    "patterns": ["what is carbon value in green hose", "carbon value looks like", "carbon value please", "green house carbon value", "how is carbon value"],
+
+    "responses": [""]
+  },
+
+  {"tag": "my_name",
+
+    "patterns": ["are you know my name", "what is my name", "are you know me", "say my name"],
+
+    "responses": [""]
+  },
+
+  {"tag": "math",
+
+    "patterns": ["help me solve some math questions", "can you solve some math questions for me", "i don't know how to solve that math problem help me", "solve math questions for me"],
+
+    "responses": [""]
+  },
+
+  {"tag": "instagram",
+
+    "patterns": ["find on instagram", "search on instagram", "open instagram", "search from instagram", "find instagram account"],
 
     "responses": [""]
   }
+
+
 
 
 ]}
