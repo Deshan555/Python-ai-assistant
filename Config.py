@@ -18,4 +18,16 @@ DATABASE_NAME = 'data_store'
 
 API_KEY = 'o.SwB5RE7PBYNdAOSSjOBE60FRalj4MECx'
 
+# Wolfram|Alpha API details
+
+API_Wolfram = '8J6WWY-UGHA9R6UE4'
+
+# TMDB API key
+
+TMDB_API_KEY = "da331723a5f297e93f44f6dc2695d523"
+
+
+
+
+
 
