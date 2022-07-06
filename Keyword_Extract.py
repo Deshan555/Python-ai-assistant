@@ -11,4 +11,4 @@ def extract_keywords_from_text(txt: str):
 
     keyword_extracted: list = rake_nltk_var.get_ranked_phrases()
 
-    print(keyword_extracted[-1])
+    return keyword_extracted
