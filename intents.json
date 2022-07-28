@@ -194,9 +194,9 @@
     "responses": [""]
   },
 
-  {"tag": "instagram",
+  {"tag": "power",
 
-    "patterns": ["find on instagram", "search on instagram", "open instagram", "search from instagram", "find instagram account"],
+    "patterns": ["how may charge left in my device", "how may charge right in my device", "current battery level", "battery parentage"],
 
     "responses": [""]
   }
