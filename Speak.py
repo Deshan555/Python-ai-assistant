@@ -6,6 +6,10 @@ voices = engine.getProperty('voices')
 
 engine.setProperty('voice', voices[1].id)
 
+rate = engine.getProperty('rate')
+
+engine.setProperty('rate', 175)
+
 
 class Speak:
 
@@ -14,3 +18,6 @@ class Speak:
         engine.say(message)
 
         engine.runAndWait()
+
+
+

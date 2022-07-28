@@ -6,7 +6,7 @@ import Speak
 import Config
 
 
-class event:
+class get_CarbonValue:
 
     def __init__(self):
 

@@ -26,4 +26,3 @@ def talk():
     Speak.Speak(data[0]+"achieves"+str(data[1])+" ratings out of ten")
 
 
-talk()

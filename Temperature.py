@@ -6,7 +6,7 @@ import Speak
 import Config
 
 
-class event:
+class get_temperature:
 
     def __init__(self):
 

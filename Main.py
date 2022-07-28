@@ -1,4 +1,7 @@
 import os
+
+from flask import *
+
 import webbrowser
 
 import pywhatkit
@@ -32,6 +35,17 @@ import Wishes
 
 import music
 
+app = Flask(__name__, template_folder='template')
+
+text: str = 'User Said'
+
+text2: str = 'HELLOSxxxxxxxxxxxxxxxxxxxx'
+
+
+@app.route('/')
+def home():
+    return render_template('index.html', n1=text, n2=text2)
+
 
 def wishMe():
 
@@ -40,11 +54,17 @@ def wishMe():
     if 0 <= hour < 12:
         Speak.Speak("Good Morning!")
 
+        text = "Good Morning!"
+
     elif 12 <= hour < 18:
         Speak.Speak("Good Afternoon!")
 
+        text = "Good Afternoon"
+
     else:
         Speak.Speak("Good Evening!")
+
+        text = "Good Evening"
 
     Speak.Speak("I am  FRIDAY. . Please tell me , how Can I help you")
 
@@ -76,6 +96,8 @@ def takeCommand():
 
 
 if __name__ == "__main__":
+
+    app.run(debug=True, host='127.0.0.1', port=8080)
 
     wishMe()
 

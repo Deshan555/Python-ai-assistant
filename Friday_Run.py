@@ -1,7 +1,9 @@
 from speech_recognition import Microphone, Recognizer, AudioFile, UnknownValueError, RequestError
 
 import os
+
 import webbrowser
+
 import pywhatkit
 
 import wikipedia
@@ -79,17 +81,17 @@ def wishMe():
 
     if 0 <= hour < 12:
 
-        Speak.Speak("Good Morning!")
+        Wishes.Good_Morning()
 
     elif 12 <= hour < 18:
 
-        Speak.Speak("Good Afternoon!")
+        Wishes.Good_Afternoon()
 
     else:
 
-        Speak.Speak("Good Evening!")
+        Wishes.Good_Evening()
 
-    Speak.Speak("I am  FRIDAY. . Please tell me , how Can I help you")
+    Speak.Speak("I am  FRIDAY. Please tell me , how Can I help you")
 
 
 if __name__ == "__main__":
@@ -107,10 +109,6 @@ if __name__ == "__main__":
         elif 'hello friday' in query:
 
             Speak.Speak('Your Friday here, So tell me what can i do for you')
-
-        elif 'good morning' in query:
-
-            Wishes.wish_toFriday()
 
         elif 'wikipedia' in query:
 
@@ -224,4 +222,8 @@ if __name__ == "__main__":
             os.system("taskkill /im chrome.exe /f")
 
             Speak.Speak('As Your Wish Sir, Chrome Google was close immediately')
+
+        elif 'knock knock knock' in query:
+
+            Wishes.Knock()
 

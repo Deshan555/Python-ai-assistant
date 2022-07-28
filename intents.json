@@ -185,9 +185,19 @@
     "patterns": ["find on instagram", "search on instagram", "open instagram", "search from instagram", "find instagram account"],
 
     "responses": [""]
+  },
+
+  {"tag": "IMDB",
+
+    "patterns": ["can you suggest good movie for watch", "please suggest me good movie", "good movie name please", "best movie worth to try"],
+
+    "responses": [""]
+  },
+
+  {"tag": "instagram",
+
+    "patterns": ["find on instagram", "search on instagram", "open instagram", "search from instagram", "find instagram account"],
+
+    "responses": [""]
   }
-
-
-
-
 ]}

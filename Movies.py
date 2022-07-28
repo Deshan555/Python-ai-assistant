@@ -38,4 +38,3 @@ def list_movies():
     Speak.Speak("Not only them, try movie "+movie_list[3]+"and"+movie_list[4]+"top movies in this week")
 
 
-list_movies()

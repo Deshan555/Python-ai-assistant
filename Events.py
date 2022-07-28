@@ -7,11 +7,11 @@ import Speak
 import Config
 
 
-class event:
+class get_event:
 
     def __init__(self):
 
-        sql_connection = mysql.connector.connect(host=Config.HOST_NAME, user=Config.USER_NAME, password=Config.PASSWORD,database=Config.DATABASE_NAME)
+        sql_connection = mysql.connector.connect(host=Config.HOST_NAME, user=Config.USER_NAME, password=Config.PASSWORD, database=Config.DATABASE_NAME)
 
         count: int = 0
 

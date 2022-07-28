@@ -6,7 +6,7 @@ import Config
 import Speak
 
 
-class event:
+class get_humidity:
 
     def __init__(self):
 
