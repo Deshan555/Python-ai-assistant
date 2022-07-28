@@ -199,5 +199,12 @@
     "patterns": ["how may charge left in my device", "how may charge right in my device", "current battery level", "battery parentage"],
 
     "responses": [""]
+  },
+
+  {"tag": "joke",
+
+    "patterns": ["tell me random joke", "any joke for me", "i am in bad mood tell me joke"],
+
+    "responses": [""]
   }
 ]}
