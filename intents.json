@@ -234,5 +234,26 @@
     "patterns": ["joke please", "tell me a random joke"],
 
     "responses": [""]
+  },
+
+  {"tag": "img_find",
+
+    "patterns": ["find image", "how looks like", "find images of", "browse photos of", ""],
+
+    "responses": [""]
+  },
+
+  {"tag": "new_movies",
+
+    "patterns": ["new box office movies" ,"can you suggest best movies watch in film hall", "now days movies"],
+
+    "responses": [""]
+  },
+
+  {"tag": "Dictionary",
+
+    "patterns": ["find meaning of", "meaning of", "dictionary of", "find in dictionary"],
+
+    "responses": [""]
   }
 ]}
