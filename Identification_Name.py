@@ -2,8 +2,6 @@ import configparser
 
 import random
 
-from Tools.scripts.fixdiv import report
-
 from speech_recognition import Microphone, Recognizer, AudioFile, UnknownValueError, RequestError
 
 import Speak
