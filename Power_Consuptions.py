@@ -3,17 +3,19 @@ import psutil
 import Speak
 
 
-battery = psutil.sensors_battery()
+def battery_data():
 
-battery_present = battery.percent
+    battery = psutil.sensors_battery()
 
-if battery.power_plugged:
+    battery_present = battery.percent
 
-    Speak.Speak("System Power Percentage Like " + str(battery_present) + "% and Power Source Connected")
+    if battery.power_plugged:
 
-else:
+        Speak.Speak("System Power Percentage Like " + str(battery_present) + "% and Power Source Connected")
 
-    Speak.Speak("System Power Percentage Like " + str(battery_present) + "% and Power Source disconnected")
+    else:
+
+        Speak.Speak("System Power Percentage Like " + str(battery_present) + "% and Power Source disconnected")
 
 
 
