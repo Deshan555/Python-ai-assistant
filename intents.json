@@ -201,9 +201,37 @@
     "responses": [""]
   },
 
+  {"tag": "google_question",
+
+    "patterns": ["what is", "who is", "tell me", "when", "answer for", "what can i do"],
+
+    "responses": [""]
+  },
+
+  {"tag": "drugs",
+
+    "patterns": ["Drugs for", "medicines for", "how to heal"],
+
+    "responses": [""]
+  },
+
+  {"tag": "convert",
+
+    "patterns": ["convert", "make convert", "transform"],
+
+    "responses": [""]
+  },
+
+  {"tag": "distance",
+
+    "patterns": ["distance", "distance between", "how far between"],
+
+    "responses": [""]
+  },
+
   {"tag": "joke",
 
-    "patterns": ["tell me random joke", "any joke for me", "i am in bad mood tell me joke"],
+    "patterns": ["joke please", "tell me a random joke"],
 
     "responses": [""]
   }
