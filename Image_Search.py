@@ -3,6 +3,8 @@ import webbrowser
 
 import Keyword_Extract
 
+import Speak
+
 
 def img_find(txt: str):
 
@@ -11,5 +13,7 @@ def img_find(txt: str):
     base_url = "https://www.google.co.in/search?q="+keyword_list[-1]+"&source=lnms&tbm=isch"
 
     webbrowser.open(base_url, new=2)
+
+    Speak.Speak("Here we are")
 
 
