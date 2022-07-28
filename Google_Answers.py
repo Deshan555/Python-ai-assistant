@@ -2,12 +2,6 @@ import requests
 
 import bs4
 
-from js2py.base import null
-
-import pywhatkit
-
-from pyttsx3 import voice
-
 import Speak
 
 import random
