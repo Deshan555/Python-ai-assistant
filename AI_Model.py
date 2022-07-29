@@ -18,6 +18,9 @@ import IMDB
 import Image_Search
 
 import Jokes
+
+import Launching_AI
+
 import Movies
 
 import News
@@ -25,16 +28,19 @@ import News
 import Power_Consuptions
 
 import Screen_Shot
+
 import Soil_Moisture
 
 import Switchs
 
 import Temperature
+
 import Water_Lv
 
 import Weather
 
 import Wikipedia_Find
+
 import Wishes
 
 import Youtube_Py
@@ -54,6 +60,7 @@ import Send_News
 import Identification_Name
 
 import Math_Slover
+
 from Dictionary import Dictionary
 
 text: str = ''
@@ -184,8 +191,6 @@ mappings = {'weather': Weather.get_Weather,
 
             'drugs': quick_answer,
 
-            'img_find': Image_Search.img_find,
-
             'new_movies': Movies.list_movies,
 
             'Dictionary': direct_ToDictionary,
@@ -210,12 +215,13 @@ mappings = {'weather': Weather.get_Weather,
 
 Assistant = GenericAssistant('intents.json', intent_methods=mappings)
 
-Assistant.train_model()
+# Assistant.train_model()
 
-Assistant.save_model()
+# Assistant.save_model()
 
-#Assistant.load_model()
+Assistant.load_model()
 
+Launching_AI.wishMe()
 
 while True:
 
