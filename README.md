@@ -139,6 +139,52 @@ Example: find meaning of / meaning of / dictionary of / find in dictionary
 
 
 
+
+
+## Commands For Smart Agriculture System - Iceburg Project
+
+```javascript
+Dictionary Command → That Command Can Return meanings of words
+
+Example: find meaning of / meaning of / dictionary of / find in dictionary
+```
+
+
+## Commands For Smart Home / Smart Farming Systems
+
+```javascript
+Switch On Sprinkler → That Command Can Turn On Sprinkler Service 
+
+Example: please sprinkler on / turn on sprinkler / activate sprinkler 
+
+        / power on sprinkler / please activate sprinkler / reactivate sprinkler
+```
+
+```javascript
+Switch Off Sprinkler → That Command Can Turn Off Sprinkler Service 
+
+Example: turn off sprinkler / turn sprinkler off / deactivate sprinkler 
+
+        / power off sprinkler / please power off sprinkler
+```
+
+```javascript
+Turn On Waterpump Command → That Command Can Turn On Water Pump
+
+Example: water pump turn on / activate water pump / turn water pump on / please turn on water pump 
+        
+        / activate water pump / reactivate water pump / on water pump / water motor turn on
+```
+
+```javascript
+Turn Off Waterpump Command → That Command Can Turn Off Water Pump
+
+Example: turn off water pump / off water pump / deactivate water pump / power off water pump / 
+
+         power off water motor / water supplier turn off
+```
+
+
 In case any error pops up install this -
 `pip3 install portAudio`
 
