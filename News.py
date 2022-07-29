@@ -18,6 +18,8 @@ class get_news:
             if count < 5:
                 Speak.Speak(entry["title"])
 
+                print(entry["title"]+"\n")
+
             else:
                 pass
 
