@@ -23,7 +23,16 @@ def Good_Afternoon():
 
 def Good_Evening():
 
-    Speak.Speak("")
+    Speak.Speak(f"Good Evening! It's {strTime} Here now so whats going on")
+
+
+def bye_bye():
+
+    greeting_list: list = ["Peace or peace out", "Later", "Goodbye", "Bye", "Catch you later", "See you later", "After awhile crocodile", "Be good",
+                           "All the best", "Farewell", "Good day", "Hasta la vista", "Take care", "Bye for now", "Take it easy", "Until next time",
+                           "Have a good day", "Have a good one"]
+
+    Speak.Speak(random.choice(greeting_list))
 
 
 def Knock():
@@ -35,3 +44,13 @@ def Knock():
                        "Knock knock. Who's there? Boo. Boo who? Oh, don't cry, it's only a joke."]
 
     Speak.Speak(random.choice(wish_list))
+
+
+def you_areWelcome():
+
+    welcome: list = ["You got it", "Don’t mention it", "No worries", "Not a problem", "My pleasure", "It was nothing", "I’m happy to help",
+                     "Not at all", "Sure", "Anytime"]
+
+    Speak.Speak(random.choice(welcome))
+
+
