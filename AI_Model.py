@@ -25,10 +25,12 @@ import News
 import Power_Consuptions
 
 import Screen_Shot
+import Soil_Moisture
 
 import Switchs
 
 import Temperature
+import Water_Lv
 
 import Weather
 
@@ -198,7 +200,11 @@ mappings = {'weather': Weather.get_Weather,
 
             'thanks': Wishes.you_areWelcome,
 
-            'bye': Wishes.bye_bye
+            'bye': Wishes.bye_bye,
+
+            'soil_moisture': Soil_Moisture.get_SoilMoist,
+
+            'Water_Level': Water_Lv.get_WaterLv
 
             }
 
