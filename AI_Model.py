@@ -8,17 +8,23 @@ import Carbon_Value
 
 import Events
 
+import Google_Answers
+
 import Human_Names
 
 import Humidity
 
 import IMDB
+import Image_Search
+
+import Jokes
+import Movies
 
 import News
 
-import Screen_Shot
+import Power_Consuptions
 
-import Social
+import Screen_Shot
 
 import Switchs
 
@@ -45,6 +51,7 @@ import Send_News
 import Identification_Name
 
 import Math_Slover
+from Dictionary import Dictionary
 
 text: str = ''
 
@@ -54,6 +61,11 @@ def time_now():
     strTime = datetime.datetime.now().strftime('%I:%M %p')
 
     Speak.Speak(f"Sir, the time is {strTime}")
+
+
+def quick_answer():
+
+    Google_Answers.google_answers(text)
 
 
 def insta():
@@ -150,8 +162,25 @@ mappings = {'weather': Weather.get_Weather,
 
             'instagram': insta,
 
-            'IMDB': IMDB.talk
+            'IMDB': IMDB.talk,
 
+            'power': Power_Consuptions.battery_data,
+
+            'joke': Jokes.joke_function,
+
+            'convert': quick_answer,
+
+            'distance': quick_answer,
+
+            'google_question': quick_answer,
+
+            'drugs': quick_answer,
+
+            'img_find': Image_Search.img_find,
+
+            'new_movies': Movies.list_movies,
+
+            'Dictionary': Dictionary.Dictionary
 
             }
 
