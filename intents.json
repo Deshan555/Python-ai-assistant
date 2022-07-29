@@ -255,5 +255,47 @@
     "patterns": ["find meaning of", "meaning of", "dictionary of", "find in dictionary"],
 
     "responses": [""]
+  },
+
+  {"tag": "knockout",
+
+    "patterns": ["knock knock knock", "hello knock knock"],
+
+    "responses": [""]
+  },
+
+  {"tag": "wishes_GoodMorning",
+
+    "patterns": ["Good morning", "Great morning", "Hello Sunshine", "Good Morning Sunshine"],
+
+    "responses": [""]
+  },
+
+  {"tag": "wishes_GoodEvening",
+
+    "patterns": ["good evening", "nice evening", "evening"],
+
+    "responses": [""]
+  },
+
+  {"tag": "wishes_GoodAfternoon",
+
+    "patterns": ["good afternoon", "nice afternoon", "afternoon"],
+
+    "responses": [""]
+  },
+
+  {"tag": "thanks",
+
+    "patterns": ["thanks", "thank you for your help", "anyway thanks"],
+
+    "responses": [""]
+  },
+
+  {"tag": "bye",
+
+    "patterns": ["bye", "see you again", "good bye", "i wanna go", "i have to go bye"],
+
+    "responses": [""]
   }
 ]}
