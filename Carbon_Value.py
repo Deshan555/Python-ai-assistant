@@ -16,14 +16,14 @@ class get_CarbonValue:
 
         SQL = "SELECT gas_value from real_time_box_1;"
 
-        print(SQL)
-
         connection.execute(SQL)
 
         result = connection.fetchall()
 
         for x in result:
 
-            Speak.Speak("Current Carbon dioxide Percentage in Green House " + str(x) + 'parts per million')
+            Speak.Speak("Current Carbon dioxide Percentage in Green House " + str(x[0]) + ' parts per million')
+
+            print("Current Carbon dioxide Percentage in Green House " + str(x[0]) + ' parts per million')
 
         sql_connection.close()

@@ -16,14 +16,14 @@ class get_humidity:
 
         SQL = "SELECT humidity from real_time_box_1;"
 
-        print(SQL)
-
         connection.execute(SQL)
 
         result = connection.fetchall()
 
         for x in result:
 
-            Speak.Speak("Current Humidity In Green House " + str(x) + 'percentage')
+            Speak.Speak("Current Humidity In Green House " + str(x[0]) + ' percentage')
+
+            print("Current Humidity In Green House " + str(x[0]) + ' percentage')
 
         sql_connection.close()

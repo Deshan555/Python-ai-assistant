@@ -16,14 +16,14 @@ class get_temperature:
 
         SQL = "SELECT temperature from real_time_box_1;"
 
-        print(SQL)
-
         connection.execute(SQL)
 
         result = connection.fetchall()
 
         for x in result:
 
-            Speak.Speak("Current Temperature in Green House " + str(x) + 'in kelvin')
+            Speak.Speak("Current Temperature in Green House " + str(x[0]) + 'in kelvin')
+
+            print("Current Temperature in Green House " + str(x[0]) + ' in kelvin')
 
         sql_connection.close()
