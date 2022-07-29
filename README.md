@@ -89,8 +89,53 @@ Events Command → check to do list
 Example: Any Events today / Events
 ```
 
+```javascript
+Weather Command → check Weather Details 
 
+Example: tell me about weather / weather Please / today weather / today looks like / climate Please
+```
 
+```javascript
+Send Weather Command → Send Weather Details to your devices 
+
+Example: Send me weather report / i want to see weather report / weather report Please / sync weather report / report weather to me
+```
+
+```javascript
+Send News Command → Send News Report To Your Devices 
+
+Example: sync news report / i want to see news report / news report Please / send me headlines / news update Please
+```
+
+```javascript
+Questions Commands → Ask Questions From Voice Assistant 
+
+Example: what is / who is / tell me / when / answer for / what can i do
+```
+
+```javascript
+Unit Conversion → Convert Units Over Words 
+
+Example: convert / make convert / transform
+```
+
+```javascript
+Joke Command → Get Random Jokes
+
+Example: joke please / tell me a random joke
+```
+
+```javascript
+New Movies Command → You Can Get Tranding Movies In These time 
+
+Example: new box office movies / can you suggest best movies watch in film hall / now days movies
+```
+
+```javascript
+Dictionary Command → That Command Can Return meanings of words
+
+Example: find meaning of / meaning of / dictionary of / find in dictionary
+```
 
 
 
