@@ -144,9 +144,43 @@ Example: find meaning of / meaning of / dictionary of / find in dictionary
 ## Commands For Smart Agriculture System - Iceburg Project
 
 ```javascript
-Dictionary Command → That Command Can Return meanings of words
+Get Humidity Command → That Command Can Return Humditiy Values In Green House
 
-Example: find meaning of / meaning of / dictionary of / find in dictionary
+Example: what is humidity in green house / what is humidity in / humidity please 
+
+        / green house humidity / how is humidity
+```
+
+```javascript
+Get Temperature Command → That Command Can Return Temperature Values In Green House
+
+Example: what is temperature in green house / temperature looks like / temperature please 
+
+        /green house temperature / how is temperature
+```
+
+```javascript
+Get Carbon Value Command → That Command Can Return Carbon Values In Green House
+
+Example: what is carbon value in green house / carbon value looks like / carbon value please
+
+        /green house carbon value / how is carbon value
+```
+
+```javascript
+Get Soil Moisture Command → That Command Can Return Soil Moisture Values In Indoor Growing Room
+
+Example: what is soil moisture in indoor growing room / soil Moisture status / soil Moisture in indoor growing room right now 
+
+        /can i know what is soil moisture in indoor growing room
+```
+
+```javascript
+Get Water Leval Command → That Command Can Return Water Leval Values In Hydroponics
+
+Example: what is water level in Hydroponics / Hydroponics status / water level in Hydroponics right now 
+
+        /can i know what is water  level in Hydroponics right now
 ```
 
 
