@@ -297,5 +297,20 @@
     "patterns": ["bye", "see you again", "good bye", "i wanna go", "i have to go bye"],
 
     "responses": [""]
+  },
+
+  {"tag": "Water_Level",
+
+    "patterns": ["what is water level in Hydroponics", "Hydroponics status", "water level in Hydroponics right now", "can i know what is water  level in Hydroponics right now"],
+
+    "responses": [""]
+  }
+  ,
+
+  {"tag": "soil_moisture",
+
+    "patterns": ["what is soil moisture in indoor growing room", "soil Moisture status", "soil Moisture in indoor growing room right now", "can i know what is soil moisture in indoor growing room"],
+
+    "responses": [""]
   }
 ]}
