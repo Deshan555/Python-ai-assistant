@@ -33,6 +33,7 @@ import Temperature
 import Weather
 
 import Wikipedia_Find
+import Wishes
 
 import Youtube_Py
 
@@ -82,6 +83,11 @@ def insta():
         base_url = base_url.replace(" ", "")
 
     webbrowser.open(base_url, new=2)
+
+
+def direct_ToDictionary():
+
+    Dictionary.Dictionary(text)
 
 
 def voice_Text():
@@ -180,7 +186,19 @@ mappings = {'weather': Weather.get_Weather,
 
             'new_movies': Movies.list_movies,
 
-            'Dictionary': Dictionary.Dictionary
+            'Dictionary': direct_ToDictionary,
+
+            'knockout': Wishes.Knock,
+
+            'wishes_GoodMorning': Wishes.Good_Morning,
+
+            'wishes_GoodEvening': Wishes.Good_Evening,
+
+            'wishes_GoodAfternoon': Wishes.Good_Afternoon,
+
+            'thanks': Wishes.you_areWelcome,
+
+            'bye': Wishes.bye_bye
 
             }
 
@@ -188,7 +206,7 @@ Assistant = GenericAssistant('intents.json', intent_methods=mappings)
 
 Assistant.train_model()
 
-#Assistant.save_model()
+Assistant.save_model()
 
 #Assistant.load_model()
 
