@@ -1,21 +1,50 @@
 
-# F.R.I.D.A.Y AI
+# LUNA AI CLI
 
 ![Logo](https://github.com/Deshan555/Tessa-AI/blob/master/Screen%20Shots/cover_img.gif)
 
-<h1 align="center">
+<p align="center">🧠 Luna is your open-source personal assistant.</p>_
 
-  <a href="Luna-ai"><img width="96" src="https://getleon.ai/img/leon-cli.svg" alt="Leon"></a><br>
+### 🚀 Getting Started
+A project to build an AI voice assistant using Python .The Voice assistant interacts with the humans to perform basic tasks. Luna is an AI personal voice 
 
-  Leon CLI
+assistant service built using Python. It can understand human speech and perform basic task designed by the client.
 
-</h1>
+When the user specify the appropriate trigger words,The Luna gets activated and executes the user commands.
 
-<p align="center">The companion for your Leon journey.</p>_
+Luna AI Voice assistant:"Loading your personal Assistant Luna.... Hello, Good Morning" (Greets the user according to time)
 
-## Installation Python Modules and Dependancies
+### Prerequisites
 
-### Command List
+- [python 3.6](https://python.org/)
+
+- [Mysql](https://npmjs.com/)
+
+### Installation
+
+```sh
+# Install python packages and Dependencies
+
+ pip install -r requirements.txt
+
+# Clone Luna Project To Your Computer
+
+git clone https://github.com/Deshan555/Tessa-AI.git
+
+```
+### Luna uses Third party API's
+
+```sh
+Open Weather Map - To forecast weather
+
+WolframAlpha - To answer questions
+
+TMDB API Key - To Get Movie Details
+
+PushBullet API Key - To Send Push Notifications
+```
+
+### The implemented Voice assistant can perform the following tasks
 
 ```javascript
 Play Youtube Command → Play music on the YouTube 
@@ -122,9 +151,9 @@ Example: find on instagram / search on instagram / open instagram / search from 
 ```javascript
 Math Command → That Command Can Slove Math Questions when we provide (that math slover  only allow manual inputs)
 
-Example: help me solve some math questions / can you solve some math questions for me / i don't know how to solve that math problem help me 
-          
-        /solve math questions for me
+Example: help me solve some math questions / can you solve some math questions for me 
+
+        / i don't know how to solve that math problem help me / solve math questions for me
 ```
 
 ```javascript
@@ -145,9 +174,6 @@ Power Command → That Command Can Return Power Status Of Device
 
 Example: how may charge left in my device / how may charge right in my device / current battery level / battery parentage
 ```
-
-
-
 
 
 ### Commands For Smart Agriculture System - Iceburg Project
@@ -228,11 +254,7 @@ Example: turn off water pump / off water pump / deactivate water pump / power of
 ```
 
 
-In case any error pops up install this -
-`pip3 install portAudio`
 
-#### Issues
-If you encounter any problems feel free to open a new issue. Before that check other closed issues and check if your issue matches with any older issues.
 
 
 
