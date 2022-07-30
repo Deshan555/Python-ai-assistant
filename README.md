@@ -6,13 +6,7 @@
 <p align="center">🧠 Luna is your open-source personal assistant.</p>_
 
 ### 🚀 Getting Started
-A project to build an AI voice assistant using Python .The Voice assistant interacts with the humans to perform basic tasks. Luna is an AI personal voice 
-
-assistant service built using Python. It can understand human speech and perform basic task designed by the client.
-
-When the user specify the appropriate trigger words,The Luna gets activated and executes the user commands.
-
-Luna AI Voice assistant:"Loading your personal Assistant Luna.... Hello, Good Morning" (Greets the user according to time)
+A project to build an AI voice assistant using Python .The Voice assistant interacts with the humans to perform basic tasks. Luna is an AI personal voice assistant service built using Python. It can understand human speech and perform basic task designed by the client.When the user specify the appropriate trigger words,The Luna gets activated and executes the user commands.Luna AI Voice assistant:"Loading your personal Assistant Luna.... Hello, Good Morning" (Greets the user according to time)
 
 ### Prerequisites
 
