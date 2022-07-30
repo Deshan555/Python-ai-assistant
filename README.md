@@ -5,6 +5,12 @@
 
 ## Installation Python Modules and Dependancies
 
+G-One is an AI personal voice assistant service built using Pychram. It can understand human speech and perform basic task designed by the client.
+
+When the user specify the appropriate trigger words , The G-One gets activated and executes the user commands.
+
+G-One AI Voice assistant:"Loading your personal Assistant G-One.... Hello, Good Morning" (Greets the user according to time)
+
 ### For windows users
 (run those in command prompt/cmt/terminal)
 For the robot to listen to our voice/speech
