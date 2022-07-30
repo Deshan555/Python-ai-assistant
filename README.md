@@ -3,6 +3,16 @@
 
 ![Logo](https://github.com/Deshan555/Tessa-AI/blob/master/Screen%20Shots/cover_img.gif)
 
+<h1 align="center">
+
+  <a href="Luna-ai"><img width="96" src="https://getleon.ai/img/leon-cli.svg" alt="Leon"></a><br>
+
+  Leon CLI
+
+</h1>
+
+<p align="center">The companion for your Leon journey.</p>_
+
 ## Installation Python Modules and Dependancies
 
 ### Command List
