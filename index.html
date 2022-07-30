@@ -1,0 +1,357 @@
+
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>LUNA</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+          body {
+  font: 400 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: 'kern' 1;
+  -moz-font-feature-settings: 'kern' 1;
+  -o-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
+  font-kerning: normal;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 5px;
+  }
+
+  main {
+    padding: 0px 20px 20px 20px !important;
+  }
+}
+
+main {
+  margin: 0px;
+  max-width: 900px;
+  border: 1px solid #e1e4e8;
+  padding: 10px 40px;
+  padding-bottom: 20px;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  color: #bbb;
+  background-color: #bbb;
+  height: 1px;
+  flex: 0 1 auto;
+  margin: 1em 0;
+  padding: 0;
+  border: none;
+}
+
+/**
+ * Links
+ */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+a:visited {
+  color: #0366d6;
+}
+a:hover {
+  color: #0366d6;
+  text-decoration: underline;
+}
+
+pre {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+}
+
+/**
+  * Code blocks
+  */
+
+code {
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+  font-size: 85%;
+  margin: 0;
+  word-wrap: break-word;
+  padding: 0.2em 0.4em;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
+}
+
+pre > code {
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  word-wrap: normal;
+  font-size: 100%;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  border-left-width: 3px;
+  padding: 0 1em;
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+}
+blockquote * {
+  font-style: normal !important;
+  letter-spacing: 0;
+  color: #6a737d !important;
+}
+
+/**
+ * Tables
+ */
+table {
+  border-spacing: 2px;
+  display: block;
+  font-size: 14px;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 16px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+th {
+  font-weight: 600;
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+/**
+ * Others
+ */
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #24292e;
+}
+
+ul {
+  margin-top: 0;
+}
+
+li {
+  color: #24292e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+li + li {
+  margin-top: 0.25em;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  color: #24292e;
+}
+
+a:visited {
+  color: #0366d6;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 1px solid #eaecef;
+  color: #111;
+  /* Darker */
+}
+
+          </style>
+        </head>
+        <body>
+          <main>
+      <h1 id="luna-ai-cli">LUNA AI CLI</h1>
+<p><img src="https://github.com/Deshan555/Tessa-AI/blob/master/Screen%20Shots/cover_img.gif" alt="Logo" /></p>
+<p align="center">🧠 Luna is your open-source personal assistant.</p>
+<p>_</p>
+<h3 id="🚀-getting-started">🚀 Getting Started</h3>
+<p>A project to build an AI voice assistant using Python .The Voice assistant interacts with the humans to perform basic tasks. Luna is an AI personal voice </p>
+<p>assistant service built using Python. It can understand human speech and perform basic task designed by the client.</p>
+<p>When the user specify the appropriate trigger words,The Luna gets activated and executes the user commands.</p>
+<p>Luna AI Voice assistant:"Loading your personal Assistant Luna…. Hello, Good Morning" (Greets the user according to time)</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li><p><a href="https://python.org/">python 3.6</a></p></li>
+<li><p><a href="https://npmjs.com/">Mysql</a></p></li>
+</ul>
+<h3 id="installation">Installation</h3>
+<pre><code class="sh language-sh"># Install python packages and Dependencies
+
+ pip install -r requirements.txt
+
+# Clone Luna Project To Your Computer
+
+git clone https://github.com/Deshan555/Tessa-AI.git</code></pre>
+<h3 id="luna-uses-third-party-apis">Luna uses Third party API's</h3>
+<pre><code class="sh language-sh">Open Weather Map - To forecast weather
+
+WolframAlpha - To answer questions
+
+TMDB API Key - To Get Movie Details
+
+PushBullet API Key - To Send Push Notifications</code></pre>
+<h3 id="the-implemented-voice-assistant-can-perform-the-following-tasks">The implemented Voice assistant can perform the following tasks</h3>
+<pre><code class="javascript language-javascript">Play Youtube Command → Play music on the YouTube 
+
+Example: youtube it /let's watch youtube /visit youtube /i want watch video /i want to look video</code></pre>
+<pre><code class="javascript language-javascript">Music Command → Play music on yourpre define music folder
+
+Example: play music for me / play my favorite music / sing for me / it's a playtime / party rock and roll / rock and roll</code></pre>
+<pre><code class="javascript language-javascript">Date Command  → Current Date and Time 
+
+Example: what's Date Today / Date Please / Date</code></pre>
+<pre><code class="javascript language-javascript">Wikipedia Command → find data from Wikipedia 
+
+Example: find details / wikipedia it / wiki it / explain it / tell more about it</code></pre>
+<pre><code class="javascript language-javascript">Quick Shot Command → this command can take quick screen shot in 5 Sec and save 
+
+Example: Take Quick Shot</code></pre>
+<pre><code class="javascript language-javascript">News Command → Get Current News  
+
+Example: tell me news today / news Please /news headlines Please / headlines / tell me about today</code></pre>
+<pre><code class="javascript language-javascript">Time Command → Return time 
+
+Example: Whats the time now / Time Please</code></pre>
+<pre><code class="javascript language-javascript">Events Command → check to do list 
+
+Example: Any Events today / Events</code></pre>
+<pre><code class="javascript language-javascript">Weather Command → check Weather Details 
+
+Example: tell me about weather / weather Please / today weather / today looks like / climate Please</code></pre>
+<pre><code class="javascript language-javascript">Send Weather Command → Send Weather Details to your devices 
+
+Example: Send me weather report / i want to see weather report / weather report Please / sync weather report / report weather to me</code></pre>
+<pre><code class="javascript language-javascript">Send News Command → Send News Report To Your Devices 
+
+Example: sync news report / i want to see news report / news report Please / send me headlines / news update Please</code></pre>
+<pre><code class="javascript language-javascript">Questions Commands → Ask Questions From Voice Assistant 
+
+Example: what is / who is / tell me / when / answer for / what can i do</code></pre>
+<pre><code class="javascript language-javascript">Unit Conversion → Convert Units Over Words 
+
+Example: convert / make convert / transform</code></pre>
+<pre><code class="javascript language-javascript">Joke Command → Get Random Jokes
+
+Example: joke please / tell me a random joke</code></pre>
+<pre><code class="javascript language-javascript">New Movies Command → You Can Get Tranding Movies In These time 
+
+Example: new box office movies / can you suggest best movies watch in film hall / now days movies</code></pre>
+<pre><code class="javascript language-javascript">Dictionary Command → That Command Can Return meanings of words
+
+Example: find meaning of / meaning of / dictionary of / find in dictionary</code></pre>
+<pre><code class="javascript language-javascript">Instagram Command → That Command Can Visit Instagram Account we provide the account name
+
+Example: find on instagram / search on instagram / open instagram / search from instagram / find instagram account</code></pre>
+<pre><code class="javascript language-javascript">Math Command → That Command Can Slove Math Questions when we provide (that math slover  only allow manual inputs)
+
+Example: help me solve some math questions / can you solve some math questions for me 
+
+        / i don't know how to solve that math problem help me / solve math questions for me</code></pre>
+<pre><code class="javascript language-javascript">Drugs Command → Drug Command Can Find Medicine for a particular Disease
+
+Example: Drugs for / Medicines for / How to heal</code></pre>
+<pre><code class="javascript language-javascript">IMDB Command → That Command Can Return IMDB Recommended Informations
+
+Example: can you suggest good movie for watch / please suggest me good movie / good movie name please / best movie worth to try</code></pre>
+<pre><code class="javascript language-javascript">Power Command → That Command Can Return Power Status Of Device
+
+Example: how may charge left in my device / how may charge right in my device / current battery level / battery parentage</code></pre>
+<h3 id="commands-for-smart-agriculture-system---iceburg-project">Commands For Smart Agriculture System - Iceburg Project</h3>
+<pre><code class="javascript language-javascript">Get Humidity Command → That Command Can Return Humditiy Values In Green House
+
+Example: what is humidity in green house / what is humidity in / humidity please 
+
+        / green house humidity / how is humidity</code></pre>
+<pre><code class="javascript language-javascript">Get Temperature Command → That Command Can Return Temperature Values In Green House
+
+Example: what is temperature in green house / temperature looks like / temperature please 
+
+        /green house temperature / how is temperature</code></pre>
+<pre><code class="javascript language-javascript">Get Carbon Value Command → That Command Can Return Carbon Values In Green House
+
+Example: what is carbon value in green house / carbon value looks like / carbon value please
+
+        /green house carbon value / how is carbon value</code></pre>
+<pre><code class="javascript language-javascript">Get Soil Moisture Command → That Command Can Return Soil Moisture Values In Indoor Growing Room
+
+Example: what is soil moisture in indoor growing room / soil Moisture status / soil Moisture in indoor growing room right now 
+
+        /can i know what is soil moisture in indoor growing room</code></pre>
+<pre><code class="javascript language-javascript">Get Water Leval Command → That Command Can Return Water Leval Values In Hydroponics
+
+Example: what is water level in Hydroponics / Hydroponics status / water level in Hydroponics right now 
+
+        /can i know what is water  level in Hydroponics right now</code></pre>
+<h3 id="commands-for-smart-home--smart-farming-systems">Commands For Smart Home / Smart Farming Systems</h3>
+<pre><code class="javascript language-javascript">Switch On Sprinkler → That Command Can Turn On Sprinkler Service 
+
+Example: please sprinkler on / turn on sprinkler / activate sprinkler 
+
+        / power on sprinkler / please activate sprinkler / reactivate sprinkler</code></pre>
+<pre><code class="javascript language-javascript">Switch Off Sprinkler → That Command Can Turn Off Sprinkler Service 
+
+Example: turn off sprinkler / turn sprinkler off / deactivate sprinkler 
+
+        / power off sprinkler / please power off sprinkler</code></pre>
+<pre><code class="javascript language-javascript">Turn On Waterpump Command → That Command Can Turn On Water Pump
+
+Example: water pump turn on / activate water pump / turn water pump on / please turn on water pump 
+
+        / activate water pump / reactivate water pump / on water pump / water motor turn on</code></pre>
+<pre><code class="javascript language-javascript">Turn Off Waterpump Command → That Command Can Turn Off Water Pump
+
+Example: turn off water pump / off water pump / deactivate water pump / power off water pump / 
+
+         power off water motor / water supplier turn off</code></pre>
+          </main>
+        </body>
+      </html>
