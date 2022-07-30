@@ -16,6 +16,12 @@ A project to build an AI voice assistant using Python .The Voice assistant inter
  [![total contributions][26]][26]
 </p>
 
+[3]: https://custom-icon-badges.herokuapp.com/github/license/denvercoder1/custom-icon-badges?logo=law
+[4]: https://custom-icon-badges.herokuapp.com/github/workflow/status/DenverCoder1/custom-icon-badges/Node.js%20CI?logo=check-circle-fill&logoColor=white
+[5]: https://custom-icon-badges.herokuapp.com/github/last-commit/DenverCoder1/custom-icon-badges?logo=history&logoColor=white
+[6]: https://custom-icon-badges.herokuapp.com/github/languages/code-size/DenverCoder1/custom-icon-badges?logo=file-code&logoColor=white
+[26]: https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=graph&logoColor=fff&color=blue&label=total%20contributions&query=%24.totalContributions&url=https%3A%2F%2Fgithub-readme-streak-stats.herokuapp.com%2F%3Fuser%3DDenverCoder1%26type%3Djson
+
 ### Prerequisites
 
 - [python 3.6](https://python.org/)
