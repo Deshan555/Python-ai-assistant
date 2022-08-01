@@ -22,8 +22,8 @@ class get_temperature:
 
         for x in result:
 
-            Speak.Speak("Current Temperature in Green House " + str(x[0]) + 'in kelvin')
+            Speak.Speak("Current Temperature in Green House " + str(x[0]) + 'in celsius')
 
-            print("Current Temperature in Green House " + str(x[0]) + ' in kelvin')
+            print("Current Temperature in Green House " + str(x[0]) + ' in celsius')
 
         sql_connection.close()
