@@ -222,6 +222,8 @@ Assistant = GenericAssistant('intents.json', intent_methods=mappings)
 
 Assistant.load_model()
 
+print("Pre Build Model Loaded")
+
 Launching_AI.wishMe()
 
 while True:
