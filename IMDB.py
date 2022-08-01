@@ -25,4 +25,10 @@ def talk():
 
     Speak.Speak(data[0]+"achieves"+str(data[1])+" ratings out of ten")
 
+    print("I can suggest you "+data[0])
+
+    print("that movie hold "+str(data[2])+"th place on IMDB Top 250 Ranking List")
+
+    print(data[0]+"achieves"+str(data[1])+" ratings out of ten")
+
 
