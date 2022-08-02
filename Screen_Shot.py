@@ -11,6 +11,8 @@ class screen_shot:
 
         Speak.Speak('Wait Five Seconds For ScreenShot capture')
 
+        print('Waiting 5 seconds for screen shot')
+
         file_name = datetime.datetime.now().strftime('%H:%M %S')+'.JPG'
 
         delay = 5
