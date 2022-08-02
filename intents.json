@@ -119,14 +119,14 @@
 
   {"tag": "on_sprinkler",
 
-    "patterns": ["please sprinkler on", "turn on sprinkler", "activate sprinkler", "power on sprinkler", "please activate sprinkler", "reactivate sprinkler"],
+    "patterns": ["please sprinkler on", "turn on sprinkler", "activate sprinkler", "power on sprinkler", "please activate sprinkler", "reactivate sprinkler", "turn on Water Sprayer", "turn on Water Sprayer", "on Water Sprayer"],
 
     "responses": [""]
   },
 
   {"tag": "off_sprinkler",
 
-    "patterns": ["turn off sprinkler", "turn sprinkler off", "deactivate sprinkler", "power off sprinkler", "please power off sprinkler"],
+    "patterns": ["turn off sprinkler", "turn sprinkler off", "deactivate sprinkler", "power off sprinkler", "please power off sprinkler", "turn off Water Sprayer", "power off Water Sprayer", "deactivate Water Sprayer", "off Water Sprayer"],
 
     "responses": [""]
   },
