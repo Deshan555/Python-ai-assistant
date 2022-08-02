@@ -48,9 +48,24 @@ def Knock():
 
 def you_areWelcome():
 
-    welcome: list = ["You got it", "Don’t mention it", "No worries", "Not a problem", "My pleasure", "It was nothing", "I’m happy to help",
+    welcome: list = ["I got it", "Don’t mention it", "No worries", "Not a problem", "My pleasure", "It was nothing", "I’m happy to help",
                      "Not at all", "Sure", "Anytime"]
 
     Speak.Speak(random.choice(welcome))
 
+
+def who_am_i():
+
+    Speak.Speak("i am Luna and i conversational, voice-activated digital assistant created by Iceberg group "
+                "that can perform actions on behalf of a user and provide contextual information.")
+
+    print("i am Luna and i conversational, voice-activated digital assistant created by Iceberg group "
+          "that can perform actions on behalf of a user and provide contextual information.")
+
+
+def Hey_user():
+
+    wish_list: list = ["Hello!", "Hello, what can I do for you?", "hey", "so tell me"]
+
+    Speak.Speak(random.choice(wish_list))
 
