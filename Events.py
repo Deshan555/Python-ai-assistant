@@ -23,8 +23,6 @@ class get_event:
 
         SQL = "SELECT activity from to_do where task_date = '" + str(today) + "';"
 
-        print(SQL)
-
         connection.execute(SQL)
 
         result = connection.fetchall()
@@ -37,6 +35,8 @@ class get_event:
 
             Speak.Speak('Sir No Events scheduled today')
 
+            print('Sir No Events scheduled today')
+
         else:
 
             for x in result:
@@ -47,7 +47,11 @@ class get_event:
 
                 Speak.Speak('Event Number ' + str(event_number))
 
+                print('Event Number ' + str(event_number))
+
                 Speak.Speak('Event Info ' + str(event_info))
+
+                print('Event Info ' + str(event_info))
 
                 count = count + 1
 
