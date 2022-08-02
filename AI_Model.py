@@ -210,7 +210,11 @@ mappings = {'weather': Weather.get_Weather,
 
             'soil_moisture': Soil_Moisture.get_SoilMoist,
 
-            'Water_Level': Water_Lv.get_WaterLv
+            'Water_Level': Water_Lv.get_WaterLv,
+
+            'who_are': Wishes.who_am_i,
+
+            'greeting': Wishes.Hey_user
 
             }
 
