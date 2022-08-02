@@ -3,11 +3,9 @@
 
 ![Logo](https://github.com/Deshan555/Tessa-AI/blob/master/Screen%20Shots/cover_img.gif)
 
-<p align="center">🧠 Luna is your open-source personal assistant.</p>_
+<p align="center">🧠 Luna is your open-source personal assistant.</p>
 
-Iceburg Group unveiled Luna CLI, a voice-activated virtual assistant. Similar to Apple's Siri, Amazon's Alexa, and Microsoft's Cortana, the Luna CLI gives contextual information and does tasks like home automation, news scraping, and a host of other things.
-
-Luna CLI uses artificial intelligence (AI) technologies including natural language processing (NLP) and machine learning (ML) to comprehend what users are saying, act on that language input, and recommend actions.
+Iceburg Group unveiled Luna CLI, a voice-activated virtual assistant. Similar to Apple's Siri, Amazon's Alexa, and Microsoft's Cortana, the Luna CLI gives contextual information and does tasks like home automation, news scraping, and a host of other things.Luna CLI uses artificial intelligence (AI) technologies including natural language processing (NLP) and machine learning (ML) to comprehend what users are saying, act on that language input, and recommend actions.
 
 ### 🚀 Getting Started
 A project to build an AI voice assistant using Python .The Voice assistant interacts with the humans to perform basic tasks. Luna is an AI personal voice assistant service built using Python. It can understand human speech and perform basic task designed by the client.When the user specify the appropriate trigger words,The Luna gets activated and executes the user commands.Luna AI Voice assistant:"Loading your personal Assistant Luna.... Hello, Good Morning" (Greets the user according to time)
