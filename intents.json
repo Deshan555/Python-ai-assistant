@@ -5,7 +5,7 @@
 
     "patterns": ["Hey", "Hello", "What's up?", "How is it going?", "Hi", "Good day"],
 
-    "responses": ["Hello Sir!", "Hello, what can I do for you?"]
+    "responses": ["Hello!", "Hello, what can I do for you?", "hey", "so tell me"]
 
   },
   {
@@ -310,6 +310,13 @@
   {"tag": "soil_moisture",
 
     "patterns": ["what is soil moisture in indoor growing room", "soil Moisture status", "soil Moisture in indoor growing room right now", "can i know what is soil moisture in indoor growing room"],
+
+    "responses": [""]
+  },
+
+  {"tag": "who_are",
+
+    "patterns": ["can you introduce yourself", "who are you", "tell me more about yourself"],
 
     "responses": [""]
   }
