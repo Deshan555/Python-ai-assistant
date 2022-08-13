@@ -1,4 +1,3 @@
-
 # LUNA AI CLI
 
 ![Logo](https://github.com/Deshan555/Tessa-AI/blob/master/Screen%20Shots/cover_img.gif)
